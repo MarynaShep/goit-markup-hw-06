@@ -792,20 +792,22 @@ button {
   }
 
   .team-list {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
   }
 
   .team-item {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
   }
 
   .section-team .container {
     max-width: 584px;
   }
 
-  .porfolio-list {
+  .portfolio-list {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
@@ -844,10 +846,10 @@ button {
   }
 
   .section-team .container {
-    max-width: 1440px;
+    width: 1440px;
   }
 
-  .porfolio-list {
+  .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
